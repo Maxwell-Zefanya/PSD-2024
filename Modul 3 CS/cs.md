@@ -89,7 +89,6 @@ begin
 end architecture display;
 ```
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 
 ### 4. Tes rangkaian **Nomor 3** pada ModelSim untuk memastikan rangkaian kalian benar. Screenshot!
@@ -99,9 +98,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 | Screenshot Nomor 1 | Screenshot Nomor 3 |
 |--------------------|---------------------|
-|![depositphotos_227724992-stock-illustration-image-available-icon-flat-vector](https://github.com/user-attachments/assets/06aaaaf7-d6a7-4da8-a9db-ea421ae7f9a5)|![depositphotos_227724992-stock-illustration-image-available-icon-flat-vector](https://github.com/user-attachments/assets/06aaaaf7-d6a7-4da8-a9db-ea421ae7f9a5)|
+|![image](https://github.com/user-attachments/assets/9d0dc16f-0b11-4358-aead-def882134d31)|![image](https://github.com/user-attachments/assets/5878dd85-75d4-4e6c-8da3-65183b58af27)|
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Pada nomor 1, rangkaian menggunakan berbagai logic gate, sedangkan pada nomor 3, rangkaian menggunakan mux
 
 
 ## Part 2
@@ -160,7 +159,6 @@ begin
 end architecture counter;
 ```
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ### 7. Tes rangkaian anda pada ModelSim untuk memastikan rangkaian kalian benar. Screenshot!
 ![depositphotos_227724992-stock-illustration-image-available-icon-flat-vector](https://github.com/user-attachments/assets/06aaaaf7-d6a7-4da8-a9db-ea421ae7f9a5)
@@ -168,7 +166,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 Contoh hasil tes pada rangkaian yang benar:
 ![Screenshot 2024-09-12 211220](https://github.com/user-attachments/assets/2c9b172c-e52f-4e9e-8ed8-3d7ba1b63ad1)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ### 8. Berikan kesimpulan dalam bentuk poin-poin
 - Penggunaan proses dapat mensimulasikan for loop seperti C
