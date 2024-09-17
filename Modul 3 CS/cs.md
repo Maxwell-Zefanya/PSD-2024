@@ -13,17 +13,41 @@ NPM     : 2306221200
     Note : Gunakan tipe data std_logic_vector untuk input (3 bit) dan std_logic untuk output (7 port output yaitu s1, s2, s3, s4, s5, s6, s7).
 
 Kode :
-```
-isi ini
-```
+```vhdl
+library IEEE;
+use IEEE.std_logic_1164.all;
 
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+entity nomorsatu is
+  port (
+    A	: in std_logic_vector(2 downto 0);
+    S1	: out std_logic;
+    S2	: out std_logic;
+    S3	: out std_logic;
+    S4	: out std_logic;
+    S5	: out std_logic;
+    S6	: out std_logic;
+    S7	: out std_logic
+  );
+end entity nomorsatu;
+
+architecture display of nomorsatu is
+
+begin
+
+    S1 <= (A(1) and not A(2)) or (A(0) and A(1)) or (not A(0) and not A(2));
+    S2 <= (A(0) and not A(1)) or (A(1) and not A(2));
+    S3 <= A(0) or (A(1) and not A(2));
+    S4 <= A(0) or A(2);
+    S5 <= not A(0) or not A(1);
+    S6 <= not A(0) or A(1) or A(2);
+    S7 <= (A(0) XOR A(2)) or (A(0) and A(1));
+
+end architecture display;
+```
 
 
 ### 2. Tes rangkaian **Nomor 1** pada ModelSim untuk memastikan rangkaian kalian benar. Screenshot!
-![depositphotos_227724992-stock-illustration-image-available-icon-flat-vector](https://github.com/user-attachments/assets/06aaaaf7-d6a7-4da8-a9db-ea421ae7f9a5)
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+![image](https://github.com/user-attachments/assets/bfcbfe0e-ed0a-48eb-b84f-547fd4659a5a)
 
 
 ### 3. Buatlah rangkaian *Decoder 3 to 8* yang sama tetapi tidak menggunakan fungsi aljabar boolean. Melainkan, menggunakan behavior style untuk membuat rangkaian ini. Berikan juga report statement dengan severity **note** pada awal process menggunakan template **NamaLengkap_NPM**
