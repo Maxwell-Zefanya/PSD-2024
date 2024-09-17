@@ -150,10 +150,11 @@ begin
 		when "0011" => temp <= "0010";
 		when "0010" => temp <= "0001";
 		when "0001" => temp <= inp;
-		when others => temp <= "0000";
+		when others =>
+		    temp <= "0000";
+		    report "LOOP" severity note;
 	    end case;
 	end if;
-    report "Maxwell Zefanya_2306221200" severity note;
     end process;
 
 end architecture counter;
