@@ -116,8 +116,48 @@ Input : 0101 (5)
     Note : Gunakan behavioral style dan conditional statement untuk membuat rangkaian ini. Tidak perlu membuat truth table, kmap, dsb.
 
 Kode :
-```
-isi ini
+```vhdl
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity partdua is
+  port (
+    clk	: in std_logic;
+    inp : in std_logic_vector(3 downto 0);
+    ctr	: out std_logic_vector(3 downto 0)
+  );
+end entity partdua;
+
+architecture counter of partdua is
+    signal temp : std_logic_vector(3 downto 0) := inp;
+begin
+    process(clk) is
+    begin
+    ctr <= temp;
+	if(falling_edge(clk)) then
+	    case temp is
+		when "1111" => temp <= "1110";
+		when "1110" => temp <= "1101";
+		when "1101" => temp <= "1100";
+		when "1100" => temp <= "1011";
+		when "1011" => temp <= "1010";
+		when "1010" => temp <= "1001";
+		when "1001" => temp <= "1000";
+		when "1000" => temp <= "0111";
+		when "0111" => temp <= "0110";
+		when "0110" => temp <= "0101";
+		when "0101" => temp <= "0100";
+		when "0100" => temp <= "0011";
+		when "0011" => temp <= "0010";
+		when "0010" => temp <= "0001";
+		when "0001" => temp <= inp;
+		when others => temp <= "0000";
+	    end case;
+	end if;
+    report "Maxwell Zefanya_2306221200" severity note;
+    end process;
+
+end architecture counter;
 ```
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
