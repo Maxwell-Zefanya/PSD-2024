@@ -35,11 +35,11 @@ NPM     : 2306221200
 
 | Output | `s1` | `s2` | `s3` | `s4` |
 |--------|------|------|------|------|
-| Screenshot K-Map | ![alt text](S1.png) | ![alt text](S2.png) | ![alt text](S3.png) | ![alt text](S4.png) |
+| Screenshot K-Map | ![S1](https://github.com/user-attachments/assets/4e05bddc-b8d4-4b17-83ea-3210b53f18e3) | ![S2](https://github.com/user-attachments/assets/5e5dae9c-429d-4293-a0a7-dad6c19d6313) | ![S3](https://github.com/user-attachments/assets/99e8aae8-a0a1-4532-a49d-8f2d45f73176) | ![S4](https://github.com/user-attachments/assets/6aecb77e-bd7c-4a04-acc3-046dcb41fb9e) |
 
 | Output | `s5` | `s6` | `s7` |
 |--------|------|------|------|
-| Screenshot K-Map | ![alt text](S5.png) | ![alt text](S6.png) | ![alt text](S7.png) |
+| Screenshot K-Map | ![S5](https://github.com/user-attachments/assets/b8f17bad-bef6-45ab-b70d-20106cded59b) | ![S6](https://github.com/user-attachments/assets/4566ecc6-086e-405e-a7e9-b676e842351e) | ![S7](https://github.com/user-attachments/assets/f879c3ad-222a-48eb-b937-792c6db70fec) |
 
 ```
 S1 = B'C + AB + A'C'  
@@ -57,11 +57,13 @@ S7 = A'C + AC' + AB = (A⊕C) + (AB)
 
 | Char | `r` | `e` | `n` | `t` |
 |------|-----|-----|-----|-----|
-| Screenshot Uji Coba | ![alt text](R.png) | ![alt text](E.png) | ![alt text](N.png) | ![alt text](T.png) |
+| Screenshot Uji Coba | ![R](https://github.com/user-attachments/assets/d0904ec0-e0ed-4987-8faf-b72132096730)|![E](https://github.com/user-attachments/assets/c686593e-aa79-4954-92f0-379e62a32727) |![N](https://github.com/user-attachments/assets/d72922db-eb3f-47ed-bc3e-6236e71fbdc9) | ![T](https://github.com/user-attachments/assets/522a11d5-0491-4b33-92f9-65156d7aa020)
+
+
 
 | Char | `d` | `o` | `g` | `s` |
 |------|-----|-----|-----|-----|
-| Screenshot Uji Coba | ![alt text](D.png) | ![alt text](O.png) | ![alt text](G.png) | ![alt text](S.png) |
+| Screenshot Uji Coba |![D](https://github.com/user-attachments/assets/33e1d2e4-00f7-457d-b64b-671fca5e2810) | ![O](https://github.com/user-attachments/assets/15b87d6e-0d2f-4bf9-9f31-ea1d75eb1edf) |  ![G](https://github.com/user-attachments/assets/dc5ae45a-dd00-42e1-a50c-c049d2a3de02)| ![S](https://github.com/user-attachments/assets/dc032956-c866-42d7-a3ac-1ed2f29b6511) |
 
 
 
