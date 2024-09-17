@@ -55,18 +55,45 @@ end architecture display;
     Hint : Gunakan process statement dengan conditional statement (switch case / if else)
 
 Kode :
-```
-isi ini
+```vhdl
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity nomorsatu is
+  port (
+    A	: in std_logic_vector(2 downto 0);
+    S	: out std_logic_vector(6 downto 0)
+  );
+end entity nomorsatu;
+
+architecture display of nomorsatu is
+
+begin
+
+    process(A) is
+    begin
+	case A is
+	    when "000" => S <= "1000110";
+	    when "001" => S <= "1001111";
+	    when "010" => S <= "1110110";
+	    when "011" => S <= "0001111";
+	    when "100" => S <= "0111101";
+	    when "101" => S <= "1111110";
+	    when "110" => S <= "1111011";
+	    when "111" => S <= "1011011";
+	    when others => S <= "0000000";
+	end case;
+    report "Maxwell Zefanya_2306221200" severity note;
+    end process;
+
+end architecture display;
 ```
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 
 ### 4. Tes rangkaian **Nomor 3** pada ModelSim untuk memastikan rangkaian kalian benar. Screenshot!
-![depositphotos_227724992-stock-illustration-image-available-icon-flat-vector](https://github.com/user-attachments/assets/06aaaaf7-d6a7-4da8-a9db-ea421ae7f9a5)
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
+![image](https://github.com/user-attachments/assets/b80c70b9-e37d-433d-9fa2-510204477564)
 
 ### 5. Lakukan Sintesis RTL pada Nomor 1 dan 3, kemudian bandingkanlah hasilnya!
 
