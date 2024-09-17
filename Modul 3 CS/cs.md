@@ -1,0 +1,87 @@
+# Case Study Modul 3
+```
+Nama    : Maxwell Zefanya Ginting
+NPM     : 2306221200
+```
+
+*PENAMAAN PADA TIAP FILE KODE DIBEBASKAN ASALKAN REPRESENTATIF TERHADAP ISINYA*
+
+*Misal : **Nomor1.vhd***
+
+## Part 1 (Based on TP)
+### 1. Berdasarkan fungsi aljabar dari rangkaian yang telah dibuat di Tugas Pendahuluan, deskripsikanlah fungsi tersebut ke dalam program VHDL.  
+    Note : Gunakan tipe data std_logic_vector untuk input (3 bit) dan std_logic untuk output (7 port output yaitu s1, s2, s3, s4, s5, s6, s7).
+
+Kode :
+```
+isi ini
+```
+
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+### 2. Tes rangkaian **Nomor 1** pada ModelSim untuk memastikan rangkaian kalian benar. Screenshot!
+![depositphotos_227724992-stock-illustration-image-available-icon-flat-vector](https://github.com/user-attachments/assets/06aaaaf7-d6a7-4da8-a9db-ea421ae7f9a5)
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+### 3. Buatlah rangkaian *Decoder 3 to 8* yang sama tetapi tidak menggunakan fungsi aljabar boolean. Melainkan, menggunakan behavior style untuk membuat rangkaian ini. Berikan juga report statement dengan severity **note** pada awal process menggunakan template **NamaLengkap_NPM**
+
+    Hint : Gunakan process statement dengan conditional statement (switch case / if else)
+
+Kode :
+```
+isi ini
+```
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+### 4. Tes rangkaian **Nomor 3** pada ModelSim untuk memastikan rangkaian kalian benar. Screenshot!
+![depositphotos_227724992-stock-illustration-image-available-icon-flat-vector](https://github.com/user-attachments/assets/06aaaaf7-d6a7-4da8-a9db-ea421ae7f9a5)
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+### 5. Lakukan Sintesis RTL pada Nomor 1 dan 3, kemudian bandingkanlah hasilnya!
+
+| Screenshot Nomor 1 | Screenshot Nomor 3 |
+|--------------------|---------------------|
+|![depositphotos_227724992-stock-illustration-image-available-icon-flat-vector](https://github.com/user-attachments/assets/06aaaaf7-d6a7-4da8-a9db-ea421ae7f9a5)|![depositphotos_227724992-stock-illustration-image-available-icon-flat-vector](https://github.com/user-attachments/assets/06aaaaf7-d6a7-4da8-a9db-ea421ae7f9a5)|
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+## Part 2
+### 6. Buatlah sebuah counter yang bekerja dengan sistem ```falling edge triggered```. Counter ini akan menghitung mundur (-1) bit pada bit yang diinput oleh user (```Tidak boleh sampai 0```) dan kemudian berulang kembali. Input berukuran 4 bit dan berbentuk positif. Output juga berukuran 4 bit. Berikan juga report statement dengan severity **note** pada saat looping menggunakan kata "LOOP"
+
+**Contoh**
+
+Input : 0101 (5)
+
+0101 (5) -> 0100 (4) -> 0011 (3) -> 0010 (2) -> 0001 (1) -> (LOOP) 0101 (5) -> 0100 (4) 
+
+    Note : Gunakan behavioral style dan conditional statement untuk membuat rangkaian ini. Tidak perlu membuat truth table, kmap, dsb.
+
+Kode :
+```
+isi ini
+```
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+### 7. Tes rangkaian anda pada ModelSim untuk memastikan rangkaian kalian benar. Screenshot!
+![depositphotos_227724992-stock-illustration-image-available-icon-flat-vector](https://github.com/user-attachments/assets/06aaaaf7-d6a7-4da8-a9db-ea421ae7f9a5)
+
+Contoh hasil tes pada rangkaian yang benar:
+![Screenshot 2024-09-12 211220](https://github.com/user-attachments/assets/2c9b172c-e52f-4e9e-8ed8-3d7ba1b63ad1)
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+### 8. Berikan kesimpulan dalam bentuk poin-poin
+- Lorem ipsum dolor sit amet
+- Lorem ipsum dolor sit amet
+- Lorem ipsum dolor sit amet
+- Lorem ipsum dolor sit amet
+- Lorem ipsum dolor sit amet
