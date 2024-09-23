@@ -13,8 +13,15 @@ NPM     : 2306221200
 **Jawaban:**
 Untuk melakukan testbench pada ModelSim pada suatu kode yang sudah bisa berjalan, bisa menggunakan kode itu dan mengupasnya menjadi bagian tulangnya saja. Maksudnya, pada bagian kode, hapus seHgala bagian logic yang ada pada kode dan sisakan saja entity-nya saja. Dengan begitu kita kemudian memindahkan entity kedalam architecture dan mengubah jenisnya dari entity menjadi component. Untuk entity sisakan saja deklarasinya dan tanpa isi entitynya. Setelah itu, kita bisa menggunakan port map kepada component yang baru saja dibuat. Terakhir, tuliskan input apa saja ingin di-test kedalam bagian architecture testbenchnya.  
 
-Screenshot cara:
-Screenshot contoh hasil testbench:
+Screenshot cara:  
+![image](https://github.com/user-attachments/assets/3cede578-5bef-43c1-8697-7a48b1ab0cc7)  
+Akan menjadi:  
+![image](https://github.com/user-attachments/assets/65a81b5f-6548-44c8-b0d2-58270ed9cc60)
+
+Screenshot contoh hasil testbench:  
+![image](https://github.com/user-attachments/assets/98071f05-ba9f-4674-a3a4-52cd52fb0631)
+
+
 
 **REFERENSI:**
 - Digital Laboratory FTUI, “Tutorial Praktikum PSD Modul 6: Testbench,” YouTube, https://www.youtube.com/watch?v=3Gld-kKh41o (accessed Sep. 23, 2024). 
@@ -25,7 +32,10 @@ Screenshot contoh hasil testbench:
 
 **Jawaban:**
 Screenshot workspace eda playground:  
+![Screenshot 2024-09-23 221419](https://github.com/user-attachments/assets/14cd7b2a-3224-45e9-8a17-234ed07452e6)  
+
 Screenshot hasil simulasi:  
+![Screenshot 2024-09-23 220900](https://github.com/user-attachments/assets/14edfbf9-8d0a-4350-b20d-60f2f6675b14)  
 
 
 ## 3. Bandingkan hasil simulasi nomor 1 dan nomor 2. Apa saja kelebihan dan kekurangan dari masing-masing platform yang Anda gunakan. **(10 poin)**
@@ -242,6 +252,11 @@ begin
   end process;
 end architecture SUBTR_BENCH_ARC;
 ```
+
+Screenshot:  
+![image](https://github.com/user-attachments/assets/98071f05-ba9f-4674-a3a4-52cd52fb0631)  
+![image](https://github.com/user-attachments/assets/28cfe165-af5b-43a9-96dd-9a80014829d4)  
+
 
 ## 5. Lanjutan dari nomor 4, pelajari bagaimana melakukan testbench dimana program VHDL dapat menerima input dari file .txt dan menulis output ke file .txt. Kembangkan program Anda dari nomor 4 agar dapat melakukan hal tersebut. Tidak ada format khusus untuk bagaimana read file dan write file. Pastikan Anda lampirkan kode yang sudah dimodifikasi, dan screenshot hasil simulasi testbench (wave, input process, output process). **(30 poin)**
 
