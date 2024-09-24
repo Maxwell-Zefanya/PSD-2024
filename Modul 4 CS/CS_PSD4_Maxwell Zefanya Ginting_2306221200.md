@@ -215,6 +215,6 @@ PlainText    | Encoded Text | Simulasi Encoding
 -------------|--------------|-------------------
 sigma        | cqanl        | ![Screenshot 2024-09-24 112659](https://github.com/user-attachments/assets/cd7407d8-e5d9-4e03-a67b-e59f0e2e6dcc)
 skibidi      | ciqfqwq      | ![Screenshot 2024-09-24 112903](https://github.com/user-attachments/assets/4db3bbac-ad24-448e-83cb-4e5d0573c6ca)
-mewing       |              | ![Simulasi Encoding]()
-rizzler      |              | ![Simulasi Encoding]()
+mewing       | ntpqqa       | ![image](https://github.com/user-attachments/assets/8c8ced72-5b17-41b6-b049-58e2c3eb8101)
+rizzler      | zqddhtz      | ![image](https://github.com/user-attachments/assets/bf6d28ca-d6a1-4514-8269-65ba414775b6)
 mogged       |              | ![Simulasi Encoding]()   
