@@ -37,7 +37,7 @@ end architecture rtl;
 
 ### Hasil Simulasi Testbench <span style="color:red">(10 Poin)</span>
 
-![Simulasi Testbench]()
+![Screenshot 2024-09-24 102817](https://github.com/user-attachments/assets/b0a7f362-9f87-47ec-81b9-eac2d5245298)
 
 ### Kode Testbench <span style="color:red">(10 Poin)</span>
 ```vhdl
@@ -139,7 +139,7 @@ end architecture rtl;
 
 ### Hasil Simulasi Testbench Input `a -> z` <span style="color:red">(10 Poin)</span>
 
-![Simulasi Testbench]()
+![Screenshot 2024-09-24 112211](https://github.com/user-attachments/assets/caa3e07a-8c62-43a1-8264-1cb4db77b1ac)
 
 ### Kode Testbench VHDL <span style="color:red">(30 Poin)</span>
 
@@ -213,8 +213,8 @@ z              | d
 
 PlainText    | Encoded Text | Simulasi Encoding
 -------------|--------------|-------------------
-sigma        | cqanl        | ![Simulasi Encoding]()
-skibidi      | ciqfqwq      | ![Simulasi Encoding]()
-mewing       |              | ![Simulasi Encoding]()
-rizzler      |              | ![Simulasi Encoding]()
+sigma        | cqanl        | ![Screenshot 2024-09-24 112659](https://github.com/user-attachments/assets/cd7407d8-e5d9-4e03-a67b-e59f0e2e6dcc)
+skibidi      | ciqfqwq      | ![Screenshot 2024-09-24 112903](https://github.com/user-attachments/assets/4db3bbac-ad24-448e-83cb-4e5d0573c6ca)
+mewing       | ntpqqa       | ![image](https://github.com/user-attachments/assets/8c8ced72-5b17-41b6-b049-58e2c3eb8101)
+rizzler      | zqddhtz      | ![image](https://github.com/user-attachments/assets/bf6d28ca-d6a1-4514-8269-65ba414775b6)
 mogged       |              | ![Simulasi Encoding]()   
