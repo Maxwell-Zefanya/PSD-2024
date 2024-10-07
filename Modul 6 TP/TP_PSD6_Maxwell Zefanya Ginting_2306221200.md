@@ -150,9 +150,13 @@ end architecture;
 
 
 - Jalankan kedua kode dengan input n = "010" dan input l = "011" ataupun kombinasi lainnya, apakah kedua kode memiliki output yang sesuai? 
-    - Output untuk kedua rangkaian (bisa) sesuai, tetapi rangkaian yang berisi logic perlu beberapa cycle untuk bisa mencapai hasil yang sesuai. Selain itu, rangkaian yang berisi logic juga terus looping dengan menambahkan 3 kedalam signal d_out, sehingga output terus berjalan dari 3, 6, 1(mod 3), 4(mode 3), dst. untuk setiap clock cycle. Output ini berbeda dengan output dengan menggunakan variable, dimana output tetap sama, yaitu 6, 6, 6, 6, dst.
-    - Foto simulasi dengan logic:
-    - Foto simulasi dengan variable:
+    - Output untuk kedua rangkaian (bisa) sesuai, tetapi rangkaian yang berisi logic perlu beberapa cycle untuk bisa mencapai hasil yang sesuai. Selain itu, rangkaian yang berisi logic juga terus looping dengan menambahkan 3 kedalam signal d_out, sehingga output terus berjalan dari 3, 6, 1(mod 3), 4(mode 3), dst. untuk setiap clock cycle. Output ini berbeda dengan output dengan menggunakan variable, dimana output tetap sama, yaitu 6, 6, 6, 6, dst.  
+    - Foto simulasi dengan logic:  
+    - ![image](https://github.com/user-attachments/assets/1fafc33b-f69b-4f29-8129-9c88462a4150)  
+
+    - Foto simulasi dengan variable:  
+    - ![image](https://github.com/user-attachments/assets/e2c837af-a9cb-47b9-9c7b-da0ba26f2078)  
+
 
 - Jelaskan mengapa hal tersebut dapat terjadi! Apa yang membedakan variable dan signal, dan bagaimana penggunaannya dalam loop! (20 poin)
     - Perbedaannya adalah variabel mengambil nilai saat assignment, sedangkan signal bergantung pada apakah signal tersebut digunakan dalam kode combinational atau sequential. Dalam kode combinational, signal langsung mengambil nilai assignmentnya.
@@ -195,7 +199,10 @@ end process;
 end architecture;
 ```
 
-Perbedaan antara while dengan for adalah for-loop dapat langsung instansiasi sebuah variabel integer temporary yang bisa digunakan dalam loop itu sendiri, sedangkan untuk while-loop kita perlu mendeklarasikan variabel counter kita sendiri.
+Perbedaan antara while dengan for adalah for-loop dapat langsung instansiasi sebuah variabel integer temporary yang bisa digunakan dalam loop itu sendiri, sedangkan untuk while-loop kita perlu mendeklarasikan variabel counter kita sendiri.  
+Hasil running:  
+![image](https://github.com/user-attachments/assets/0d16aaf5-200d-4755-a5fe-0a6720fde902)  
+
 
 ### 3. Untuk persiapan CS, silahkan mempelajari for generate loop. Berikan penjelasan dan penggunaan sekilas mengenai for generate loop pada TP ini (5 poin).
 Generate statement bersifat concurrent, sedangkan for-loop bersifat sekuensial. Dengan menggunakan for-loop dan generate, maka kita bisa mereplikasi statement yang berada di dalam for-loop sebanyak range yang ditentukan untuk dijalankan secara concurrent.  
