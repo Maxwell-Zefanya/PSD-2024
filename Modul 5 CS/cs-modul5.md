@@ -322,6 +322,9 @@ end arch;
 ```
 
 ### 5. Berikan Hasil Simulasi, dan jelaskan dengan terperinci mengenai alur kerja keseluruhan program.
+![image](https://github.com/user-attachments/assets/ee39f12f-fe75-4a65-aef7-cdf166587428)  
+Program bisa berjalan dengan benar
+
 
 ### 6. Tuliskan kesimpulan yang dipelajari dari implementasi ALU ini.
 - Penggunaan testbench sangat membantu dalam analisa kesalahan rangkaian
