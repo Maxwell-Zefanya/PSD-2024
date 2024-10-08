@@ -169,7 +169,8 @@ end elevator_test;
 ```
 
 # Hasil Running
-Hasil running ada pada testbench:
+Hasil running ada pada testbench dari lantai 1 ke 5:  
+![image](https://github.com/user-attachments/assets/49c5f492-45dd-4b82-899b-dc2cf295005b)  
 
 
 # Laporan
@@ -183,4 +184,5 @@ Contoh kasus:
 3. lift = "000010", lalu clock
 4. lift = "000001", finish. Lift sampai lantai 6. Clock berikutnya tidak akan membuat lift berpindah tempat
 
-# Link Video
+# Link Video  
+https://www.youtube.com/watch?v=7okg4m5qUck
