@@ -130,9 +130,23 @@ Foto wave:
 
 
 2. Dapatkah exit statement digunakan untuk meningkatkan efisiensi sistem? Jika iya, jelaskan pada bagian mana exit statement dapat ditambahkan! (10 poin)
-- Exit statement dapat digunakan untuk mengecek bila parity awal dengan checksum awal sudah tidak sesuai, maka bisa langsung keluar. Jadi, 
-1. Adakah metode lain untuk membuat sistem ini tanpa menggunakan loop? Jika iya, jelaskan secara singkat metode yang dapat digunakan (5 poin)
-2. Menurut anda, apakah metode parity checksum merupakan metode yang ampuh untuk mengvalidasi data? adakah kekurangan atau kasus dimana metode ini tidak dapat diandalkan? (5 poin)
+- Exit statement dapat digunakan untuk mengecek bila parity awal dengan checksum awal sudah tidak sesuai, maka bisa langsung keluar. Jadi, bisa ditaruh pada line 
+```vhdl
+      if parity = checksum(i) then
+        valid := valid + 1;
+      end if;
+```
+Menjadi  
+```vhdl
+      if parity /= checksum(i) then
+        flag <= '1';
+	  else
+	    valid := valid + 1;
+      end if;
+```
+3. Adakah metode lain untuk membuat sistem ini tanpa menggunakan loop? Jika iya, jelaskan secara singkat metode yang dapat digunakan (5 poin)
+4. Menurut anda, apakah metode parity checksum merupakan metode yang ampuh untuk mengvalidasi data? adakah kekurangan atau kasus dimana metode ini tidak dapat diandalkan? (5 poin)
+- Parity bisa digunakan bila packet yang dikirim ingin menjadi sekecil mungkin. Biasanya parity checksum tidak bisa digunakan saat reliability dari data harus tinggi.
 ---
 
 ## Tugas 2 (15 poin)
