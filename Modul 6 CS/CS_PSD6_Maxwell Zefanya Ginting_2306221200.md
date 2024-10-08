@@ -127,6 +127,7 @@ begin
 end architecture;
 ```
 Foto wave:  
+![image](https://github.com/user-attachments/assets/b622b305-6811-45c8-9ab1-366c63f5bfad)  
 
 
 2. Dapatkah exit statement digunakan untuk meningkatkan efisiensi sistem? Jika iya, jelaskan pada bagian mana exit statement dapat ditambahkan! (10 poin)
@@ -145,8 +146,9 @@ Menjadi
       end if;
 ```
 3. Adakah metode lain untuk membuat sistem ini tanpa menggunakan loop? Jika iya, jelaskan secara singkat metode yang dapat digunakan (5 poin)
+- Pengecekan parity bisa dilakukan untuk bit yang relatif kecil dengan menggunakan tabel lookup. Lookup table berguna untuk menghubungkan input dengan nilai parity. Misalkan pada tabel untuk "1000100000" ditaruh parity 0, maka bila kita ketemu bit tersebut tinggal melihat pada tabel saja untuk mengambil nilai parity yang sesuai
 4. Menurut anda, apakah metode parity checksum merupakan metode yang ampuh untuk mengvalidasi data? adakah kekurangan atau kasus dimana metode ini tidak dapat diandalkan? (5 poin)
-- Parity bisa digunakan bila packet yang dikirim ingin menjadi sekecil mungkin. Biasanya parity checksum tidak bisa digunakan saat reliability dari data harus tinggi.
+- Parity bisa digunakan bila packet yang dikirim ingin menjadi sekecil mungkin. Biasanya parity checksum tidak bisa digunakan saat reliability dari data harus tinggi, karena bisa saja 2 bit yang tertukar akan menghasilkan checksum yang sama.
 ---
 
 ## Tugas 2 (15 poin)
@@ -219,3 +221,5 @@ Gioban menyertakan blueprint berikut yang dapat membantu anda.
 
 ## Kesimpulan
 ###### Berikan kesimpulan praktikum kali ini dalam bentuk poin-poin! (5 poin)
+- Array bisa digunakan untuk memudahkan penulisan kode
+- Looping bisa digunakan dalam VHDL untuk melakukan proses yang perlu mengiterasi
