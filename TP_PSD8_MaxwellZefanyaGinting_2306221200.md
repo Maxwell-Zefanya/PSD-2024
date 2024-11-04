@@ -24,8 +24,8 @@ Sebaliknya, pada Moore machine output dari mesin hanya dipengaruhi oleh state me
 
 State diagram adalah adalah sebuah diagram yang digunakan untuk merancang spesifikasi sebuah state machine. Ada 2 aspek utama dalam pembuatan suatu state diagram, yaitu State yang digambarkan sebagai sebuah lingkaran, dan Transition yang digambarkan dengan sebuah panah yang menghubungkan antara dua state. Biasanya, pada Mealy machine, transition akan memiliki 2 bagian, yaitu satu yang menjelaskan input, dan satu yang menjelaskan output yang diperlukan oleh transition tersebut.  
 Contoh state diagram:
-- Sebuah tangan jam
-
+- Sebuah tangan jam  
+![nomor 2](https://github.com/user-attachments/assets/173a8697-0a37-42cb-a61e-28ae0830f803)  
 
 **Referensi:**
 - "What is State Machine Diagram?," Visual Paradigm, https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-state-machine-diagram/ (accessed Nov. 3, 2024).
@@ -180,7 +180,7 @@ begin
             when others =>
         end case;
     end process;
-end architecture test;
+end architecture rtl;
 ```
 
 ### 2. Dari Kode VHDL berikut, buatkanlah State Diagram dari Sistem tersebut! Jelaskanlah juga bagaimana sistem tersebut bekerja dan tipe FSM manakah sistem tersebut <span style="color:red">(25 Poin)</span>
@@ -241,5 +241,5 @@ end architecture rtl;
 
 Kode ini mencoba untuk mensimulasikan berbagai state dari senjata Vandal dari hit game tahun 2020 yang bernama Valorant. Setiap rising edge pada clock, maka akan dicek status dari Vandal tersebut. Bila senjatanya masih idle, maka pew akan dijadikan 0. Bila pada saat idle senjatanya ingin ditembak, maka kode akan berubah ke state shooting, yang akan menyetel variabel pew dan mengecek status bullet dari senjata. Bila pelurunya habis (baik dalam Idle atau Firing), maka senjata akan masuk kedalam state reloading. Terakhir, bila pada saat shooting triggernya dilepas, maka kondisi akan kembali kedalam Idle.  
 
-Gambar State diagram:  
-
+Gambar State diagram:   
+![nomor 2 part 2](https://github.com/user-attachments/assets/8079b88e-5ce3-4998-ae47-5afae86e589a)
