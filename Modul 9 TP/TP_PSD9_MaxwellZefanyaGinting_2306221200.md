@@ -333,7 +333,7 @@ end architecture VPCMPUB_ARC;
 ## 3. Screenshot hasil simulasi waveform pada modelsim atau Vivado dan paste ke sini
 | MOVBE | PMINSW | VPCMPUB |
 | --- | --- | --- |
-| ![Instruksi 1](https://cdn.digilabdte.com/u/JX8liP.png) | ![Instruksi 2](https://cdn.digilabdte.com/u/JX8liP.png) | ![Instruksi 3](https://cdn.digilabdte.com/u/JX8liP.png) |
+| ![Screenshot 2024-11-11 203253](https://github.com/user-attachments/assets/973ec2a9-08b8-4e4f-ae60-acd2116cb98f) | ![Screenshot 2024-11-11 211313](https://github.com/user-attachments/assets/cd9d7046-e44b-475d-a859-4ffe295a85ca) | ![Screenshot 2024-11-11 214826](https://github.com/user-attachments/assets/8ae8eb45-d203-466f-b87f-bc3b7b0e6162) |
 
     Jika ada screenshot lebih, silakan tambahkan sendiri
 
