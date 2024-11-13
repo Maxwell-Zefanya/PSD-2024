@@ -269,8 +269,13 @@ end architecture;
 ```  
 
 Foto waveform:  
+![Waveform](https://github.com/user-attachments/assets/cc13fead-6fd3-40bc-a38f-59ff0d141ec6)  
+
 Foto file input:  
+![Input File](https://github.com/user-attachments/assets/08d7a075-33e6-4c71-9208-9483d240d0df)  
+
 Foto file output:  
+![image](https://github.com/user-attachments/assets/b17c75b3-60ff-4ca3-8d5d-835e5e454e1b)  
 
 
 #### 2. Jelaskan dan analisa cara kerja dari testbench yang telah anda buat (10 poin)
